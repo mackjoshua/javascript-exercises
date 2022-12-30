@@ -15,6 +15,9 @@ const removeFromArray = function(ourArray, ...moreArgs) {
 
 // So in sum, it grabs a value from moreArgs, 
 // then iterates over ourArray to see if there are any matching values
+// If matching values are present, it removes them from ourArray
+// It then moves to the next value in moreArgs, repeating the process
+// The function returns ourArray at the end
 
 // Do not edit below this line
 module.exports = removeFromArray;
